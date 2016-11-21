@@ -1,4 +1,5 @@
 import re
+import time
 text = 'asd, rdf fsduh: asd, fs rdf'
 
 def split_text(text):
@@ -15,3 +16,4 @@ list = split_text(text)
 print(list)
 new_list = delete_same(list)
 print(new_list)
+time.sleep(5)
