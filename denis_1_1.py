@@ -1,4 +1,5 @@
 import math
+import time
 
 
 def factorial(n):
@@ -24,3 +25,5 @@ e = float(input("enter e: "))
 
 sum_e, k = sum_e(x, a, e)
 print("step 12" + str(k) + " = " + str(sum_e))
+
+time.sleep(5)
