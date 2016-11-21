@@ -1,4 +1,5 @@
 import random
+import time
 
 def create_matrix(n):
     random_matrix = [[random.randint(1, 100) for e in range(n)] for e in range(n)]
@@ -35,4 +36,4 @@ vector = create_vector(matrix)
 
 printByTen(vector)
 
-
+time.sleep(5)
