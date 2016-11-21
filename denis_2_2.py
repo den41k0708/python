@@ -1,4 +1,5 @@
 import math
+import time
 
 def radical(n):
     if (n == 1):
@@ -18,3 +19,5 @@ def factorial(x, step):
 n = 10
 m = 10
 print(radical(n)/factorial(m, 2))
+
+time.sleep(5)
